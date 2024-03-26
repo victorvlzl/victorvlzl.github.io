@@ -1,43 +1,45 @@
 <!DOCTYPE html>
-<html >
+<html lang="es">
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div id="table">
+    <div class="calculadora">
 
-        <div id="present">
-            <p>10</p>
-        </div>
+        <input od="pantalla"class="pantalla" type="text" disabled>
 
-        <table>
+        <table class="teclado">
             <tr>
-                <td><input class="button" type="submit" value="7"></td>
-                <td><input class="button" type="submit" value="8"></td>
-                <td><input class="button" type="submit" value="9"></td>
+                <td><input class="button" type="button" value="7" onclick = "clickButton('7')"></td>
+                <td><input class="button" type="button" value="8" onclick = "clickButton('8')"></td>
+                <td><input class="button" type="button" value="9" onclick = "clickButton('9')"></td>
+                <td><input class="button" type="button" value="+" onclick = "clickButton('+')"></td>
             </tr>
 
             <tr>
-                <td><input class="button" type="submit" value="4"></td>
-                <td><input class="button" type="submit" value="5"></td>
-                <td><input class="button" type="submit" value="6"></td>
+                <td><input class="button" type="button" value="4"onclick = "clickButton('4')"></td>
+                <td><input class="button" type="button" value="5"onclick = "clickButton('5')"></td>
+                <td><input class="button" type="button" value="6"onclick = "clickButton('6')"></td>
+                <td><input class="button" type="button" value="-"onclick = "clickButton('-')"></td>
             </tr>
 
             <tr>
-                <td><input class="button" type="submit" value="1"></td>
-                <td><input class="button" type="submit" value="2"></td>
-                <td><input class="button" type="submit" value="3"></td>
+                <td><input class="button" type="button" value="1" onclick = "clickButton('1')"></td>
+                <td><input class="button" type="button" value="2" onclick = "clickButton('2')"></td>
+                <td><input class="button" type="button" value="3" onclick = "clickButton('3')"></td>
+                <td><input class="button" type="button" value="*"onclick = "clickButton('*')"></td>
             </tr>
 
             <tr>
-                <td></td>
-                <td><input class="button" type="submit" value="0"></td>
+                <td><input class="button" type="button" value="0"onclick = "clickButton('0')"></td>
+                <td><input class="button" type="button" value="c"onclick = ""></td>
+                <td><input class="button" type="button" value="="onclick = ""></td>
+                <td><input class="button" type="button" value="/"onclick = "clickButton('/')"></td>
             </tr>
             
         </table>
     </div>
-    <script src="scripts.js"></script>
+    <script src="scripts.js" type="txt/javascript"></script>
 </body>
 </html>
->>>>>>> parent of 9d63c56 (Update index.html)
