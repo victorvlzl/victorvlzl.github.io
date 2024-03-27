@@ -1,6 +1,16 @@
+
+var pantalla = document.getElementById("pantalla");
+
 function clickButton(valor){
-    //document.getElementById("pantalla").value += valor;
-    document.write("sí es lo que queria");
+    pantalla.value += valor;
 }
 
+function clickClear(){
+    pantalla.value = '';
+}
+
+function clickResult(){
+    var result = eval(pantalla.value);
+    pantalla.value = result;
+}
 

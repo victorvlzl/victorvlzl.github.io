@@ -7,7 +7,7 @@
     
     <div class="calculadora">
 
-        <input od="pantalla"class="pantalla" type="text" disabled>
+        <input id="pantalla"class="pantalla" type="text" disabled>
 
         <table class="teclado">
             <tr>
@@ -33,13 +33,13 @@
 
             <tr>
                 <td><input class="button" type="button" value="0"onclick = "clickButton('0')"></td>
-                <td><input class="button" type="button" value="c"onclick = ""></td>
-                <td><input class="button" type="button" value="="onclick = ""></td>
+                <td><input class="button" type="button" value="c"onclick = "clickClear()"></td>
+                <td><input class="button" type="button" value="="onclick = "clickResult()"></td>
                 <td><input class="button" type="button" value="/"onclick = "clickButton('/')"></td>
             </tr>
             
         </table>
     </div>
-    <script src="scripts.js" type="txt/javascript"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
